@@ -1,0 +1,38 @@
+{
+  "name": "indivisible-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "9.10.0"
+  },
+  "scripts": {
+    "test": "jest -i --coverage --forceExit",
+    "lint": "eslint --fix .",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meganrm/node-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meganrm/node-app/issues"
+  },
+  "homepage": "https://github.com/meganrm/node-app#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "express-sessions": "^1.0.6",
+    "lodash": "^4.17.11",
+    "moment": "^2.19.2",
+    "superagent": "^3.8.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "jest": "^21.2.1",
+    "mocha": "^4.0.1"
+  }
+}
